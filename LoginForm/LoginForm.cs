@@ -37,6 +37,7 @@ namespace LoginForm
             this.Close();
         }
 
+        //Moving the borderless form with MouseDown&Move
         private Point mousePoint;
         private void MouseDownMethod(object sender, MouseEventArgs e)
         {
@@ -66,7 +67,6 @@ namespace LoginForm
             {
                 PasswordTextBox.Text = string.Empty;
             }
-
         }
 
         private void LoginButton_Click(object sender, EventArgs e)
